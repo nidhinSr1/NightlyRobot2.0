@@ -130,7 +130,7 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             send_start(bot, update)
     else:
-        update.effective_message.reply_text("വേറെ ഒരു പണിയും ഇല്ലേ നിനക്ക്‌ ഒന്നും...😎")
+        update.effective_message.reply_text("ചത്തിട്ടില്ലാ 😎")
 
 def send_start(bot, update):
     #Try to remove old message
